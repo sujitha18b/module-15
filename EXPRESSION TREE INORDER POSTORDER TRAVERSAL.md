@@ -1,4 +1,4 @@
-# Experiment 9(c): Expression Tree – Inorder and Postorder Traversal
+# Experiment 15D: Expression Tree – Inorder and Postorder Traversal
 
 ## Aim
 To write a Python program to build the following expression tree and print the inorder and postorder traversal.
@@ -20,9 +20,30 @@ To write a Python program to build the following expression tree and print the i
 
 ## Program
 
-```
-```
+from binarytree import heap, Node, build.
+
+
+def heaptree(l):
+
+    t = build(l)
+    
+    for i in t.values:
+    
+        print(i, "-->", end="")
+        
+    print("\nHeight : ", t.height)
+    
+    print("Is max heap? : ", t.is_max_heap)
+    
+    print("Is complete tree? : ", t.is_complete)
+    
+
+heaptree([89, 81, 76, 22, 14, 9, 54, 11])
+
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/401dde1b-f53b-4af2-8def-0cb8f35edfd8)
+
 
 ## RESULT
+Thus, the Python program to build a heap tree, check if it is a max-heap and a complete tree, and print its height has been implemented and executed successfully.

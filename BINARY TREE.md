@@ -1,4 +1,4 @@
-# Experiment 9(a): Binary Tree (Float Values)
+# Experiment 15B: Binary Tree (Float Values)
 
 ## Aim
 To write a Python program to build a binary tree with a root, left, and right node using float values.
@@ -19,16 +19,34 @@ To write a Python program to build a binary tree with a root, left, and right no
 
 ## Program
 
-```python
 from binarytree import Node
 
-# Input float values for root and child nodes
 
 
-# Print the binary tree as a list
+l = []
 
-```
+
+for i in range(3):
+
+    l.append(input())
+    
+    
+root = Node(l[0])
+
+root.left = Node(l[1])
+
+root.right = Node(l[2])
+
+
+print("Binary Tree : ")
+
+for i in root.values:
+
+    print(i, "--> ", end="")
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/8650cd2a-b9e9-481a-8b6b-c157f284128f)
+
 
 ## RESULT
+Thus, the Python program to print a binary tree consisting of a root, left, and right node has been implemented and executed successfully.

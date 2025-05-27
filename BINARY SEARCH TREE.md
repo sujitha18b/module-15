@@ -1,4 +1,4 @@
-# Experiment 9(b): Binary Search Tree
+# Experiment 15A: Binary Search Tree
 
 ## Aim
 To write a Python program to build a Binary Search Tree (BST) using a built-in function.
